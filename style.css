@@ -54,6 +54,7 @@
   padding: 10vh 0;
   scroll-snap-align: start;
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -81,9 +82,9 @@
 }
 .section .buttons {
   display: flex;
-  width: 536px;
+  width: 550px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .section .buttons button {
   width: 256px;
@@ -93,6 +94,7 @@
   border-radius: 32px;
   outline: none;
   border: none;
+  margin: 0 16px;
 }
 .section .buttons button:first-child {
   background: #313237;
