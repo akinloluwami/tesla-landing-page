@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
   top: 0;
   background: transparent;
   width: 95%;
@@ -113,4 +114,22 @@
     height: 40px;
     margin: 10px 0;
   }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  font-family: Gotham-Black;
+}
+.footer ul li {
+  font-family: Gotham-Black;
+  color: #383b41;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 10px;
 }
