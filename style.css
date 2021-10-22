@@ -106,4 +106,9 @@
   .section .buttons {
     flex-direction: column;
   }
+  .section .buttons button {
+    width: 90%;
+    height: 40px;
+    margin: 10px 0;
+  }
 }
