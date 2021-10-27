@@ -12,23 +12,23 @@
   src: url("./font/Gotham-Light.otf");
 }
 
-*{
-scroll-snap-type: y mandatory;
+* {
+  scroll-snap-type: y mandatory;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky ;
+  position: sticky;
   top: 0;
   /* Change 2 */
-  left:0;
+  left: 0;
   background: transparent;
   /* Change 1*/
   width: 90%;
- height: 60px;
- margin: auto ;
-  padding : 10px;
+  height: 60px;
+  margin: auto;
+  padding: 10px;
 }
 .navbar .logo img {
   width: 120px;
@@ -53,9 +53,9 @@ scroll-snap-type: y mandatory;
   margin: 0 8px;
 }
 .container {
-// scroll-snap-type: y mandatory;
- // height: 100vh;
-  // overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
 }
 .section {
   /* Change */
@@ -124,9 +124,7 @@ scroll-snap-type: y mandatory;
   }
 }
 
-
 .footer {
-
   display: flex;
   align-items: center;
   justify-content: center;
